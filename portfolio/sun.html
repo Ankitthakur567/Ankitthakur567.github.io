@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>sun</title>
+        <style>
+        .a{
+         height: 200px;
+         width: 200px;
+         border-radius: 100px;
+         background-color: orange;
+        margin: 150px auto;
+        }
+        .b{
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+            background-color: blue;
+        }
+        .z{
+            animation: move linear 20s infinite;
+            width: 60%;
+        }
+        @keyframes move{
+           100%{
+            transform: rotate(360deg);
+           }
+        }
+    </style>
+    </head>
+    <body>
+        <div class="a"></div>
+        <div class="z">
+        <div class="b"></div>
+    </div>
+    </body>
+</html>
